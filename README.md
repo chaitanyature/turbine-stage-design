@@ -1,6 +1,6 @@
 # Turbine Stage Design
 
-[![CI](https://github.com/Sanjanakamboj/turbine-stage-design/actions/workflows/ci.yml/badge.svg)](https://github.com/Sanjanakamboj/turbine-stage-design/actions/workflows/ci.yml)
+[![CI](https://github.com/chaitanyature/turbine-stage-design/actions/workflows/ci.yml/badge.svg)](https://github.com/chaitanyature/turbine-stage-design/actions/workflows/ci.yml)
 
 Axial-turbine stage-design chain (1D mean-line → blade geometry → cascade CFD),
 exposed to any MCP client as the **`turbine`** MCP server.
@@ -65,7 +65,7 @@ A few choices that shape the architecture — the reasoning, in 30 seconds:
 ### 1. Clone (with the ParaBlade submodule)
 ParaBlade is pulled in as a git submodule, so clone recursively:
 ```bash
-git clone --recurse-submodules https://github.com/Sanjanakamboj/turbine-stage-design.git
+git clone --recurse-submodules https://github.com/chaitanyature/turbine-stage-design.git
 cd turbine-stage-design
 ```
 Already cloned without `--recurse-submodules`? Fetch it now:
